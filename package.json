@@ -20,6 +20,7 @@
     "cli"
   ],
   "scripts": {
+    "postinstall": "md ..\\kasuNhentaiJS & echo module.exports = require(\"kasu.nhentaiapi.js\"); > ..\\kasuNhentaiJS/index.js",
     "test": "bin\\test.bat 5",
     "bruhmocha": "node ./test/test.js",
     "overallTest": "node ./test/overAlltest.js",
